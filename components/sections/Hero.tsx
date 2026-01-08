@@ -30,7 +30,7 @@ export default function Hero() {
           />
         ))}
       </div>
-      
+
       <div className="max-w-4xl mx-auto text-center relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -44,25 +44,25 @@ export default function Hero() {
               Available for Internship Opportunities
             </span>
           </div>
-          
+
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/50">
             Building Modern Web Experiences
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Final year student with a passion for React.js and modern web development. 
+            Final year student with a passion for React.js and modern web development.
             1+ year of hands-on experience through internships.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90" asChild>
               <a href="#projects">View My Projects</a>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <a href="#contact">Let's Connect</a>
+              <a href="#contact">Contact Me</a>
             </Button>
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               variant="secondary"
               className="inline-flex items-center"
               asChild
@@ -75,7 +75,7 @@ export default function Hero() {
           </div>
         </motion.div>
       </div>
-      
+
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <ArrowDown className="h-6 w-6 text-muted-foreground" />
       </div>
