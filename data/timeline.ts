@@ -12,7 +12,7 @@ export interface TimelineEvent {
 
 export const timelineEvents: TimelineEvent[] = [
   {
-    period: "2021 – Present",
+    period: "2021 – 2025",
     title: "B.Tech in Computer Science",
     company: "Swami Vivekananda University",
     description: "Pursuing degree with focus on software engineering and distributed systems",
