@@ -1,9 +1,9 @@
-"use client";
-
+import React from "react";
 import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Projects from "@/components/sections/Projects";
+import Timeline from "@/components/sections/Timeline";
 import Skills from "@/components/sections/Skills";
+import Projects from "@/components/sections/Projects";
+import Certifications from "@/components/sections/Certifications";
 import Contact from "@/components/sections/Contact";
 import Navigation from "@/components/layout/Navigation";
 import Footer from "@/components/layout/Footer";
@@ -13,9 +13,10 @@ export default function Home() {
     <main className="min-h-screen bg-background">
       <Navigation />
       <Hero />
-      <About />
+      <Timeline />
       <Skills />
       <Projects />
+      <Certifications />
       <Contact />
       <Footer />
     </main>

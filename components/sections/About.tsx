@@ -30,9 +30,9 @@ export default function About() {
               <p className="text-lg text-muted-foreground">
                 As a final year Computer Science student with a strong focus on frontend development,
                 I bring fresh perspectives and modern development practices to every project.
-                Through my internship experiences, I've gained practical expertise in:
+                Through my internship experiences, I have gained practical expertise in:
               </p>
-              
+
               <ul className="space-y-3">
                 {[
                   "Building responsive web applications with React.js and Next.js",
